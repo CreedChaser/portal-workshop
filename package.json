@@ -1,0 +1,15 @@
+{
+  "name": "portal-workshop-release",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portable Three.js recursive-portal workshop and reusable dependency-free engine core.",
+  "scripts": {
+    "build": "node scripts/build-release.mjs",
+    "test": "node tests/test-engine-api.mjs && node tests/test-fair-scheduler.mjs && node tests/test-scene-corpus.mjs && node tests/test-randomized-topology.mjs && node tests/test-release-contract.mjs && node tests/test-release-hygiene.mjs",
+    "test:legacy": "node tools/test-portal-screen-dag-boundary.mjs && node tools/test-portal-screen-dag-float32.mjs && node tools/portal-screen-dag-scene-probe.js 640 360",
+    "validate": "bash scripts/run-validation.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

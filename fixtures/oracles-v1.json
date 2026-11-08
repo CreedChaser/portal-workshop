@@ -1,0 +1,757 @@
+{
+  "schema": "portal-workshop-oracles",
+  "version": "1.0.0",
+  "sceneCorpusVersion": "1.0.0",
+  "renderer": {
+    "canonical": "euclidean-unfolded-raster-breadth-fair-v1",
+    "finiteDepth": 2048,
+    "maxCopies": 4097,
+    "conservativeTerminal": true
+  },
+  "scenes": {
+    "basic-pair": {
+      "fingerprint": "fnv1a64:314389c5267df688",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/basic-pair.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 29742,
+        "pngSha256": "e0b3d0ca24cd6fdc2fd136780c1091301582dce2bf9fded2589c8149fdcf59ac",
+        "rgbaSha256": "be142ba8af0ffdeebd626a8420998b386937e6f24d3d0933679304be04af6a84",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            1.1,
+            0.1,
+            -0.4
+          ],
+          "direction": [
+            -0.573454582680667,
+            -0.04997916927067833,
+            -0.817711394222653
+          ]
+        },
+        "expected": {
+          "resolved": true,
+          "face": 0,
+          "crossings": 1,
+          "travel": 8.893467,
+          "truncated": false
+        }
+      },
+      "movement": {
+        "from": [
+          1.1,
+          0.1,
+          -0.4
+        ],
+        "delta": [
+          -0.7168182283508338,
+          -0.062473961588347914,
+          -1.0221392427783162
+        ],
+        "expected": {
+          "position": [
+            0.38318177164916634,
+            0.03752603841165209,
+            -1.4221392427783162
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": null
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": false
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    },
+    "simultaneous-loops": {
+      "fingerprint": "fnv1a64:c30dda5316578eef",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/simultaneous-loops.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 31881,
+        "pngSha256": "8f3271e951495057ff03173d957145d6f63413816dfeb8017c8f2201e8ef9d85",
+        "rgbaSha256": "72c031851509594e7f062701817223df1491e9ce6147527d3198793d8f79d00b",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ]
+        },
+        "expected": {
+          "resolved": true,
+          "face": 5,
+          "crossings": 0,
+          "travel": 4,
+          "truncated": false
+        }
+      },
+      "movement": {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "delta": [
+          0,
+          0,
+          1.25
+        ],
+        "expected": {
+          "position": [
+            0,
+            0,
+            1.25
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": null
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": false
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    },
+    "overlap-ownership": {
+      "fingerprint": "fnv1a64:30f9d3078a3af4ac",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/overlap-ownership.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 29312,
+        "pngSha256": "5a3482ceddfa41e3c37e493f34453421276a534a4c249bf313f296fa0e15024f",
+        "rgbaSha256": "569b556928989547a5e2cc84b3cafb56945c8bf8f1954b2cfce952cfaefd824b",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ]
+        },
+        "expected": {
+          "resolved": true,
+          "face": 0,
+          "crossings": 1,
+          "travel": 3.999999,
+          "truncated": false
+        }
+      },
+      "movement": {
+        "from": [
+          0,
+          0,
+          0
+        ],
+        "delta": [
+          0,
+          0,
+          1.25
+        ],
+        "expected": {
+          "position": [
+            0,
+            0,
+            1.25
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": "A"
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": false
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    },
+    "boundary-contact": {
+      "fingerprint": "fnv1a64:a23c079400390f99",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/boundary-contact.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 31034,
+        "pngSha256": "7011d731840a3bb5d0f8607a875a2302b7635a0ce8e703275231b5c046767074",
+        "rgbaSha256": "6e75571806bb72addbaa6a817cc243256a2761c0b987c073a6687a3a241f9563",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            0,
+            0,
+            2.05
+          ],
+          "direction": [
+            -1.2246467991473532e-16,
+            0,
+            -1
+          ]
+        },
+        "expected": {
+          "resolved": false,
+          "face": -1,
+          "crossings": 49,
+          "travel": 200.899952,
+          "truncated": true
+        }
+      },
+      "movement": {
+        "from": [
+          0,
+          0,
+          2.05
+        ],
+        "delta": [
+          -1.5308084989341916e-16,
+          0,
+          -1.25
+        ],
+        "expected": {
+          "position": [
+            -1.5308084989341916e-16,
+            0,
+            0.7999999999999998
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": null
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": false
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    },
+    "mixed-shapes": {
+      "fingerprint": "fnv1a64:2182b1ccb9dff5f7",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/mixed-shapes.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 31690,
+        "pngSha256": "8004b57c77488360224912aa7a985bb0b2d97c2642e2fb0f9ba0fa3594af57ea",
+        "rgbaSha256": "ef26e70c4a6a0f5cbf36c4cf4172f5bd1ca4062f4492d771a6de7559c5ecb179",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            0,
+            0.1,
+            0
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ]
+        },
+        "expected": {
+          "resolved": true,
+          "face": 5,
+          "crossings": 0,
+          "travel": 4,
+          "truncated": false
+        }
+      },
+      "movement": {
+        "from": [
+          0,
+          0.1,
+          0
+        ],
+        "delta": [
+          0,
+          0,
+          1.25
+        ],
+        "expected": {
+          "position": [
+            0,
+            0.1,
+            1.25
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": null
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": false
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    },
+    "scaled-rotated": {
+      "fingerprint": "fnv1a64:b96a7a3552281509",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/scaled-rotated.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 36021,
+        "pngSha256": "a677f6ea8d020cbe4cc3101e4bb5fdf3d36b910c5a4a597ed65c63f51b34eb35",
+        "rgbaSha256": "b382fc58f038ef058964305ff05b1d695b0ad8f50bc1e78d4f4a5ed09d0c2825",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            -0.3,
+            0,
+            -0.2
+          ],
+          "direction": [
+            0.14937089035737214,
+            -0.02999550020249566,
+            0.9883261643209938
+          ]
+        },
+        "expected": {
+          "resolved": true,
+          "face": 5,
+          "crossings": 0,
+          "travel": 4.2496092,
+          "truncated": false
+        }
+      },
+      "movement": {
+        "from": [
+          -0.3,
+          0,
+          -0.2
+        ],
+        "delta": [
+          0.18671361294671518,
+          -0.03749437525311958,
+          1.2354077054012422
+        ],
+        "expected": {
+          "position": [
+            -0.11328638705328481,
+            -0.03749437525311958,
+            1.0354077054012423
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": null
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": false
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    },
+    "editor-fixture": {
+      "fingerprint": "fnv1a64:f56181148771e653",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/editor-fixture.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 33119,
+        "pngSha256": "e79548528bdeea7a2c9c1b3b6995b2646356111b0df0a66250830ccda9a47a1d",
+        "rgbaSha256": "d23e740a69433e79e06ca536efa7fe79718d161c4976c6d698c5fc7436c21051",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            0.5,
+            0.15,
+            -0.75
+          ],
+          "direction": [
+            -0.3339167596665643,
+            -0.0799146939691727,
+            -0.9392088368949664
+          ]
+        },
+        "expected": {
+          "resolved": true,
+          "face": 4,
+          "crossings": 1,
+          "travel": 7.8257346,
+          "truncated": false
+        }
+      },
+      "movement": {
+        "from": [
+          0.5,
+          0.15,
+          -0.75
+        ],
+        "delta": [
+          -0.41739594958320536,
+          -0.09989336746146588,
+          -1.1740110461187079
+        ],
+        "expected": {
+          "position": [
+            0.08260405041679464,
+            0.05010663253853412,
+            -1.9240110461187079
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": null
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": true
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    },
+    "compressed-opt-in": {
+      "fingerprint": "fnv1a64:40a99beefac26543",
+      "pixel": {
+        "viewport": [
+          640,
+          360
+        ],
+        "golden": "oracles/compressed-opt-in.png",
+        "tolerance": {
+          "maxDifferentPixels": 0,
+          "maxChannelDelta": 0
+        },
+        "environment": "Chromium 144 / ANGLE SwiftShader release oracle",
+        "bytes": 28174,
+        "pngSha256": "a0a71e2f8ddd6620a2f4b5276d96bfd74b571925542681bec71ff2dd8f6c4b5f",
+        "rgbaSha256": "e97a98bc5d86cabb6b7cca5930f0d7fcb409ff2e60a15d22b6e2f0b86d029e3b",
+        "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+      },
+      "depth": {
+        "ray": {
+          "origin": [
+            1.1,
+            0.1,
+            -0.4
+          ],
+          "direction": [
+            -0.573454582680667,
+            -0.04997916927067833,
+            -0.817711394222653
+          ]
+        },
+        "expected": {
+          "resolved": true,
+          "face": 0,
+          "crossings": 1,
+          "travel": 8.893467,
+          "truncated": false
+        }
+      },
+      "movement": {
+        "from": [
+          1.1,
+          0.1,
+          -0.4
+        ],
+        "delta": [
+          -0.7168182283508338,
+          -0.062473961588347914,
+          -1.0221392427783162
+        ],
+        "expected": {
+          "position": [
+            0.38318177164916634,
+            0.03752603841165209,
+            -1.4221392427783162
+          ],
+          "remaining": [
+            0,
+            0,
+            0
+          ],
+          "events": [],
+          "crossings": 0,
+          "truncated": false
+        }
+      },
+      "crossing": {
+        "deterministicOwner": null
+      },
+      "resize": {
+        "viewports": [
+          [
+            640,
+            360
+          ],
+          [
+            1024,
+            768
+          ],
+          [
+            1440,
+            900
+          ]
+        ]
+      },
+      "editor": {
+        "required": false
+      },
+      "lifecycle": {
+        "contextLossRestore": true,
+        "visibilityPause": true
+      }
+    }
+  }
+}

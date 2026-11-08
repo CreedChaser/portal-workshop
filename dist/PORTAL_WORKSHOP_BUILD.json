@@ -1,0 +1,30 @@
+{
+  "schema": "portal-workshop-build/v1",
+  "releaseVersion": "1.0.0",
+  "deterministic": true,
+  "entrypoint": "Portal Workshop.html",
+  "source": {
+    "Portals+Compressed Space.html": {
+      "bytes": 1086799,
+      "sha256": "85692dc12a50af539e15ecc1a87fc8be3f3ee4f2df32fd605db2d1272018999c"
+    },
+    "engine/portal-workshop-engine.umd.js": {
+      "bytes": 21502,
+      "sha256": "1dc34ecf4759d61607afef555c900b1345bc4a7c38ae3155967befcd70beb932"
+    },
+    "tools/portal-screen-dag.js": {
+      "bytes": 62837,
+      "sha256": "a8bcc6eb2f68641989efa1c8c4076f38d628931a56afe5da309c9537563acbaf"
+    }
+  },
+  "output": {
+    "bytes": 1171137,
+    "sha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3"
+  },
+  "claims": {
+    "canonicalRenderer": "euclidean-unfolded-raster-breadth-fair-v1",
+    "exactness": "exact-within-certified-finite-envelope",
+    "compressedSpaces": "opt-in-bounded-extension",
+    "infiniteExactnessClaimed": false
+  }
+}

@@ -1,0 +1,969 @@
+{
+  "schema": "portal-workshop-scene-corpus",
+  "version": "1.0.0",
+  "engineVersion": "1.0.0",
+  "createdUtc": "2026-08-19T00:00:00Z",
+  "scenes": [
+    {
+      "index": 0,
+      "id": "basic-pair",
+      "name": "Basic reciprocal rectangle pair",
+      "fingerprint": "fnv1a64:314389c5267df688",
+      "scene": {
+        "version": 2,
+        "id": "basic-pair",
+        "name": "Basic reciprocal rectangle pair",
+        "selectedId": "A",
+        "player": {
+          "x": 1.1,
+          "y": 0.1,
+          "z": -0.4,
+          "yaw": -2.5299999999999994,
+          "pitch": -0.05,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "pair1",
+            "targetId": "B",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              4
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "pair1",
+            "targetId": "A",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              2,
+              4
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          }
+        ],
+        "compressedSpaces": []
+      }
+    },
+    {
+      "index": 1,
+      "id": "simultaneous-loops",
+      "name": "Two simultaneously visible reciprocal loops",
+      "fingerprint": "fnv1a64:c30dda5316578eef",
+      "scene": {
+        "version": 2,
+        "id": "simultaneous-loops",
+        "name": "Two simultaneously visible reciprocal loops",
+        "selectedId": "A",
+        "player": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "left",
+            "targetId": "B",
+            "shape": "rectangle",
+            "position": [
+              -1.25,
+              0,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              1.35,
+              3.4
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "left",
+            "targetId": "A",
+            "shape": "rectangle",
+            "position": [
+              -1.25,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              1.35,
+              3.4
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          },
+          {
+            "id": "C",
+            "pairId": "right",
+            "targetId": "D",
+            "shape": "rectangle",
+            "position": [
+              1.25,
+              0,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              1.35,
+              3.4
+            ],
+            "color": [
+              0.46,
+              0.22,
+              0.86
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 2
+          },
+          {
+            "id": "D",
+            "pairId": "right",
+            "targetId": "C",
+            "shape": "rectangle",
+            "position": [
+              1.25,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              1.35,
+              3.4
+            ],
+            "color": [
+              0.14,
+              0.72,
+              0.29
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 3
+          }
+        ],
+        "compressedSpaces": []
+      }
+    },
+    {
+      "index": 2,
+      "id": "overlap-ownership",
+      "name": "Coincident apertures with deterministic ownership",
+      "fingerprint": "fnv1a64:30f9d3078a3af4ac",
+      "scene": {
+        "version": 2,
+        "id": "overlap-ownership",
+        "name": "Coincident apertures with deterministic ownership",
+        "selectedId": "A",
+        "player": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "primary",
+            "targetId": "B",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              2.4,
+              3.5
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "primary",
+            "targetId": "A",
+            "shape": "rectangle",
+            "position": [
+              -2.05,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              -1.5707963267948966,
+              0
+            ],
+            "size": [
+              2.4,
+              3.5
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          },
+          {
+            "id": "C",
+            "pairId": "secondary",
+            "targetId": "D",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              2.4,
+              3.5
+            ],
+            "color": [
+              0.46,
+              0.22,
+              0.86
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 2
+          },
+          {
+            "id": "D",
+            "pairId": "secondary",
+            "targetId": "C",
+            "shape": "rectangle",
+            "position": [
+              2.05,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              1.5707963267948966,
+              0
+            ],
+            "size": [
+              2.4,
+              3.5
+            ],
+            "color": [
+              0.14,
+              0.72,
+              0.29
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 3
+          }
+        ],
+        "compressedSpaces": []
+      }
+    },
+    {
+      "index": 3,
+      "id": "boundary-contact",
+      "name": "Camera on a portal plane boundary",
+      "fingerprint": "fnv1a64:a23c079400390f99",
+      "scene": {
+        "version": 2,
+        "id": "boundary-contact",
+        "name": "Camera on a portal plane boundary",
+        "selectedId": "A",
+        "player": {
+          "x": 0,
+          "y": 0,
+          "z": 2.05,
+          "yaw": -3.141592653589793,
+          "pitch": 0,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "pair1",
+            "targetId": "B",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              2.4,
+              3.6
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "pair1",
+            "targetId": "A",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              2.4,
+              3.6
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          }
+        ],
+        "compressedSpaces": []
+      }
+    },
+    {
+      "index": 4,
+      "id": "mixed-shapes",
+      "name": "Rectangle, circle, oval, and triangle pairs",
+      "fingerprint": "fnv1a64:2182b1ccb9dff5f7",
+      "scene": {
+        "version": 2,
+        "id": "mixed-shapes",
+        "name": "Rectangle, circle, oval, and triangle pairs",
+        "selectedId": "A",
+        "player": {
+          "x": 0,
+          "y": 0.1,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "circle-pair",
+            "targetId": "B",
+            "shape": "circle",
+            "position": [
+              -1.45,
+              0.65,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              1.2,
+              1.2
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "circle-pair",
+            "targetId": "A",
+            "shape": "oval",
+            "position": [
+              -1.45,
+              0.65,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              1
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          },
+          {
+            "id": "C",
+            "pairId": "triangle-pair",
+            "targetId": "D",
+            "shape": "triangle",
+            "position": [
+              1.35,
+              -0.45,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              1.7,
+              1.7
+            ],
+            "color": [
+              0.46,
+              0.22,
+              0.86
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 2
+          },
+          {
+            "id": "D",
+            "pairId": "triangle-pair",
+            "targetId": "C",
+            "shape": "rectangle",
+            "position": [
+              1.35,
+              -0.45,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              1.25,
+              2.2
+            ],
+            "color": [
+              0.14,
+              0.72,
+              0.29
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 3
+          }
+        ],
+        "compressedSpaces": []
+      }
+    },
+    {
+      "index": 5,
+      "id": "scaled-rotated",
+      "name": "Differently sized and rotated portal endpoints",
+      "fingerprint": "fnv1a64:b96a7a3552281509",
+      "scene": {
+        "version": 2,
+        "id": "scaled-rotated",
+        "name": "Differently sized and rotated portal endpoints",
+        "selectedId": "A",
+        "player": {
+          "x": -0.3,
+          "y": 0,
+          "z": -0.2,
+          "yaw": 0.15000000000000036,
+          "pitch": -0.03,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "scale",
+            "targetId": "B",
+            "shape": "oval",
+            "position": [
+              -1.1,
+              0.25,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0.17999999999999972
+            ],
+            "size": [
+              1.1,
+              2.9
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "scale",
+            "targetId": "A",
+            "shape": "oval",
+            "position": [
+              1.25,
+              -0.3,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              -0.33000000000000007
+            ],
+            "size": [
+              2.7,
+              1.15
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          }
+        ],
+        "compressedSpaces": []
+      }
+    },
+    {
+      "index": 6,
+      "id": "editor-fixture",
+      "name": "Editor lifecycle fixture",
+      "fingerprint": "fnv1a64:f56181148771e653",
+      "scene": {
+        "version": 2,
+        "id": "editor-fixture",
+        "name": "Editor lifecycle fixture",
+        "selectedId": "A",
+        "player": {
+          "x": 0.5,
+          "y": 0.15,
+          "z": -0.75,
+          "yaw": -2.8,
+          "pitch": -0.08,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "pair1",
+            "targetId": "B",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              4
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "pair1",
+            "targetId": "A",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              2,
+              4
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          },
+          {
+            "id": "C",
+            "pairId": "pair2",
+            "targetId": "D",
+            "shape": "triangle",
+            "position": [
+              -2.05,
+              0.4,
+              0
+            ],
+            "rotation": [
+              0,
+              -1.5707963267948966,
+              0.1999999999999993
+            ],
+            "size": [
+              1.5,
+              1.8
+            ],
+            "color": [
+              0.46,
+              0.22,
+              0.86
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 2
+          },
+          {
+            "id": "D",
+            "pairId": "pair2",
+            "targetId": "C",
+            "shape": "circle",
+            "position": [
+              2.05,
+              -0.3,
+              0
+            ],
+            "rotation": [
+              0,
+              1.5707963267948966,
+              0
+            ],
+            "size": [
+              1.4,
+              1.4
+            ],
+            "color": [
+              0.14,
+              0.72,
+              0.29
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 3
+          }
+        ],
+        "compressedSpaces": []
+      }
+    },
+    {
+      "index": 7,
+      "id": "compressed-opt-in",
+      "name": "Opt-in bounded compressed-space extension",
+      "fingerprint": "fnv1a64:40a99beefac26543",
+      "scene": {
+        "version": 2,
+        "id": "compressed-opt-in",
+        "name": "Opt-in bounded compressed-space extension",
+        "selectedId": "A",
+        "player": {
+          "x": 1.1,
+          "y": 0.1,
+          "z": -0.4,
+          "yaw": -2.5299999999999994,
+          "pitch": -0.05,
+          "tm": null
+        },
+        "settings": {
+          "fov": 1.5707963267948966,
+          "portalDistance": 1,
+          "roomSize": [
+            4,
+            4,
+            4
+          ]
+        },
+        "portals": [
+          {
+            "id": "A",
+            "pairId": "pair1",
+            "targetId": "B",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              -2.05
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              2,
+              4
+            ],
+            "color": [
+              0.04732,
+              0.56007,
+              0.68342
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 0
+          },
+          {
+            "id": "B",
+            "pairId": "pair1",
+            "targetId": "A",
+            "shape": "rectangle",
+            "position": [
+              0,
+              0,
+              2.05
+            ],
+            "rotation": [
+              0,
+              -3.141592653589793,
+              0
+            ],
+            "size": [
+              2,
+              4
+            ],
+            "color": [
+              0.64951,
+              0.29542,
+              0.03271
+            ],
+            "enabled": true,
+            "locked": false,
+            "priority": 1
+          }
+        ],
+        "compressedSpaces": [
+          {
+            "id": "c1",
+            "kind": "compressed",
+            "label": "Compressed Space",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              1.8,
+              1.8,
+              1.8
+            ],
+            "scale": [
+              1,
+              1,
+              0.35
+            ],
+            "tint": [
+              0.58,
+              0.93,
+              1
+            ],
+            "enabled": true,
+            "locked": false
+          }
+        ]
+      }
+    }
+  ]
+}

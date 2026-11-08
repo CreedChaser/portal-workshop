@@ -1,0 +1,147 @@
+{
+  "schema": "portal-workshop-golden-manifest/v1",
+  "sceneCorpusVersion": "1.0.0",
+  "generatedFrom": "test-results/browser-matrix-verify.json",
+  "verifiedHtml": "dist/Portal Workshop.html",
+  "verifiedHtmlSha256": "99314961a3219b27735cfc263e1fc4c355f8e9356e22046092458229556c19e3",
+  "referenceBrowser": {
+    "Browser": "Chrome/144.0.7559.96",
+    "Protocol-Version": "1.3",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+    "V8-Version": "14.4.258.22",
+    "WebKit-Version": "537.36 (@d7b80622cfab91c265741194e7942eefd2d21811)"
+  },
+  "referenceWebGL": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "vendor": "Google Inc. (Google)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "contextAttributes": {
+      "alpha": true,
+      "antialias": false,
+      "depth": true,
+      "desynchronized": false,
+      "failIfMajorPerformanceCaveat": false,
+      "powerPreference": "high-performance",
+      "premultipliedAlpha": true,
+      "preserveDrawingBuffer": false,
+      "stencil": true,
+      "xrCompatible": false
+    }
+  },
+  "exactRgbaMatch": true,
+  "scenes": {
+    "basic-pair": {
+      "file": "fixtures/oracles/basic-pair.png",
+      "bytes": 29742,
+      "pngSha256": "e0b3d0ca24cd6fdc2fd136780c1091301582dce2bf9fded2589c8149fdcf59ac",
+      "rgbaSha256": "be142ba8af0ffdeebd626a8420998b386937e6f24d3d0933679304be04af6a84",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "euclidean-exact-fair",
+      "canonical": true,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    },
+    "simultaneous-loops": {
+      "file": "fixtures/oracles/simultaneous-loops.png",
+      "bytes": 31881,
+      "pngSha256": "8f3271e951495057ff03173d957145d6f63413816dfeb8017c8f2201e8ef9d85",
+      "rgbaSha256": "72c031851509594e7f062701817223df1491e9ce6147527d3198793d8f79d00b",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "euclidean-exact-fair",
+      "canonical": true,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    },
+    "overlap-ownership": {
+      "file": "fixtures/oracles/overlap-ownership.png",
+      "bytes": 29312,
+      "pngSha256": "5a3482ceddfa41e3c37e493f34453421276a534a4c249bf313f296fa0e15024f",
+      "rgbaSha256": "569b556928989547a5e2cc84b3cafb56945c8bf8f1954b2cfce952cfaefd824b",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "euclidean-exact-fair",
+      "canonical": true,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    },
+    "boundary-contact": {
+      "file": "fixtures/oracles/boundary-contact.png",
+      "bytes": 31034,
+      "pngSha256": "7011d731840a3bb5d0f8607a875a2302b7635a0ce8e703275231b5c046767074",
+      "rgbaSha256": "6e75571806bb72addbaa6a817cc243256a2761c0b987c073a6687a3a241f9563",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "euclidean-exact-fair",
+      "canonical": true,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    },
+    "mixed-shapes": {
+      "file": "fixtures/oracles/mixed-shapes.png",
+      "bytes": 31690,
+      "pngSha256": "8004b57c77488360224912aa7a985bb0b2d97c2642e2fb0f9ba0fa3594af57ea",
+      "rgbaSha256": "ef26e70c4a6a0f5cbf36c4cf4172f5bd1ca4062f4492d771a6de7559c5ecb179",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "euclidean-exact-fair",
+      "canonical": true,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    },
+    "scaled-rotated": {
+      "file": "fixtures/oracles/scaled-rotated.png",
+      "bytes": 36021,
+      "pngSha256": "a677f6ea8d020cbe4cc3101e4bb5fdf3d36b910c5a4a597ed65c63f51b34eb35",
+      "rgbaSha256": "b382fc58f038ef058964305ff05b1d695b0ad8f50bc1e78d4f4a5ed09d0c2825",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "euclidean-exact-fair",
+      "canonical": true,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    },
+    "editor-fixture": {
+      "file": "fixtures/oracles/editor-fixture.png",
+      "bytes": 33119,
+      "pngSha256": "e79548528bdeea7a2c9c1b3b6995b2646356111b0df0a66250830ccda9a47a1d",
+      "rgbaSha256": "d23e740a69433e79e06ca536efa7fe79718d161c4976c6d698c5fc7436c21051",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "euclidean-exact-fair",
+      "canonical": true,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    },
+    "compressed-opt-in": {
+      "file": "fixtures/oracles/compressed-opt-in.png",
+      "bytes": 28174,
+      "pngSha256": "a0a71e2f8ddd6620a2f4b5276d96bfd74b571925542681bec71ff2dd8f6c4b5f",
+      "rgbaSha256": "e97a98bc5d86cabb6b7cca5930f0d7fcb409ff2e60a15d22b6e2f0b86d029e3b",
+      "viewport": [
+        640,
+        360
+      ],
+      "renderer": "metric-bounded-extension",
+      "canonical": false,
+      "differentPixels": 0,
+      "maxChannelDelta": 0
+    }
+  }
+}
